@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-size: 6vh;
+}
+#container{
+    height: auto;
+    width: 50vmin;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+button{
+    margin: 5vh 5vh;
+    font-size: 4vh;
+    padding: 1.5vh;
+    border-radius: 5px;
+    border: none;
+    background-color: #dadada;
+}
